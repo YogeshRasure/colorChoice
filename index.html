@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>project1</title>
+        <link rel="stylesheet" href="index.css">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body><br>
+        <div id="parent">
+            <div id="child1"><h1 id="heading">🎨Rupantar</h1>
+        </div>
+            
+            <div id="child2"> 
+                <div id="area" contenteditable="true">Type Your Text here</div>
+           </div>
+            <!-- <div id="child3">
+               
+            </div> -->
+            <div id="child4">
+                <div id="bg-color">
+                    <h2>choose bg-color</h2>
+                   
+                    <button class="bgbtn" style="background-color: red;" onclick="changeBgColor('red')"></button>
+                     <button class="bgbtn" style="background-color: rgb(72, 7, 76);" onclick="changeBgColor('rgb(72, 7, 76)')"></button>
+                     <button class="bgbtn" style="background-color: rgb(241, 182, 3);" onclick="changeBgColor('rgb(241, 182, 3)')"></button>
+                     <button class="bgbtn" style="background-color: rgb(164, 230, 238);" onclick="changeBgColor('rgb(164, 230, 238)')"></button>
+                     <input type="color" oninput="changeBgColor(event.target.value)" class="inputBtn" id="first-input">
+                     
+                
+                </div>
+                <div id="text-color">
+                    <h2>choose text-color</h2>
+                    <button class="bgbtn" style="background-color: black;" onclick="changeTextColor('black')"></button>
+                    <button class="bgbtn" style="background-color: rgb(135, 4, 111);" onclick="changeTextColor('rgb(135, 4, 111)')"></button>
+                    <button class="bgbtn" style="background-color: rgb(255, 254, 254);" onclick="changeTextColor('black')"></button>
+                    <button class="bgbtn" style="background-color: rgb(255, 0, 0);" onclick="changeTextColor('rgb(255,0, 0)')"></button>
+                    <input type="color" oninput="changeTextColor(event.target.value)" class="inputBtn" id="second-input">
+                </div>
+                <div id="bg-img"> <h2>choose bg-img</h2>
+                <button class="bgbtn" style="background-image: url('github_PNG67.png');" onclick="changeBgImage('github_PNG67.png')"></button>
+                <button class="bgbtn" style="background-image: url('lin\(1\).jpeg');" onclick="changeBgImage('lin\(1\).jpeg')"></button>
+                <button class="bgbtn" style="background-image: url('instagram.png');" onclick="changeBgImage('instagram.png')"></button>
+             
+               
+</button> 
+                
+
+  
+
+                
+                </div>
+                <div id="font"><h2>font</h2>
+                    <button style="font-family: verdana; width: 60px;" onclick="changeFontStyle('verdana')">font</button>
+                    <button style="font-family: sans-serif; width: 60px;" onclick="changeFontStyle('sans-serif')">font</button>
+                    <button style="font-family: cursive; width: 60px;" onclick="changeFontStyle('cursive')">font</button>
+                    <button style="font-family: cambria; width: 60px;" onclick="changeFontStyle('cambria')">font</button>
+                
+                </div>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

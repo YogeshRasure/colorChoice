@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgba(250, 235, 215, 0.667);
+}
+#parent
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    flex-direction: column;
+    row-gap: 35px;
+}
+#heading
+{
+    
+    font-size: 55px;
+    background:linear-gradient(rgb(1, 202, 242),rgb(115, 150, 162));
+    color: transparent;
+    background-clip:text;
+    font-weight: bold;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+     text-shadow: 3px 3px 4px rgba(21, 12, 21, 0.634);
+   
+
+} 
+#area{
+    height: 350px;
+    width: 450px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px purple;
+    background-color: whitesmoke;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Styles for landscape or larger Android phones */
+  #area{
+   height: 250px;
+   width: 300px;
+   
+  }
+}
+#download{
+
+    height: 42px;
+    width: fit-content;
+    padding: 10px;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#child4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+    row-gap: 25px;
+
+    
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Styles for landscape or larger Android phones */
+  #child4{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+#bg-color,#text-color,#bg-img,#font{
+    height: 150px;
+    width: 300px;
+    /* display: flex; */
+    padding: 20px;
+    text-align: center;
+   background-color: rgba(211, 230, 247, 0.571);
+   
+    border: 1px solid black;
+}
+
+@media only screen and (min-width: 381px) and (max-width: 767px) {
+  /* Styles for landscape or larger Android phones */
+#bg-color,#text-color,#bg-img,#font{
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+
+  }
+}
+
+
+   #bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+   } 
+
+
+
+h2{
+    margin-top: -15px;
+    text-align: center;
+}
+.bgbtn{
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 30px;
+    background-size: cover;
+}
+
+.inputBtn{
+    margin-top: 100px;
+    position: absolute;
+ 
+    border-radius: 100px;
+    width: 250px;
+    height: 30px;
+    box-shadow: 2px 3px 10px black;
+}
+@media only screen and (min-width: 381px) and (max-width: 767px) {
+.inputBtn{
+    width: 150px;
+
+    position: absolute;
+}
+
+
+
+}
+#first-input{
+    margin-left: -220px;
+    position: absolute;
+}
+
+#second-input{
+    margin-left: -220px;
+}
+
+@media only screen and (min-width: 381px) and (max-width: 767px) {
+    #first-input{
+        margin-left: -170px;
+}
+
+#second-input{
+    margin-left: -170px;
+}
+}
